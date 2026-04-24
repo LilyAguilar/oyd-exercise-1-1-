@@ -180,9 +180,12 @@ Note: You didn't use the -out option to save this plan, so Terraform can't guara
 ```
 
 
-1. Did Terraform propose to destroy and recreate the bucket, or update it in place?
-    Terraform propone crearlo desde cero.
-2. Why does that distinction matter?
+1. __Did Terraform propose to destroy and recreate the bucket, or update it in place?__
+
+   Terraform propone crearlo desde cero.
+3. __Why does that distinction matter?__
+
+   Esto significaría que el bucket actual se borraría por completo lo que implica perder todos los archivos y objetos almacenados dentro.
 
 
 # Task 4
